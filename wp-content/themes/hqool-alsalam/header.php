@@ -10,7 +10,7 @@
 <header class="site-header" data-header>
     <div class="container header-inner">
         <a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="حقول السلام - الرئيسية">
-            <?php if ( has_custom_logo() ) { the_custom_logo(); } else { ?><span class="brand-mark">ح</span><span class="brand-name">حقول السلام<small>حلول تنمو معك</small></span><?php } ?>
+            <img class="brand-logo" src="<?php echo esc_url( hqool_logo_url() ); ?>" alt="شعار شركة حقول السلام">
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu"><span></span><span></span><span></span><b class="screen-reader-text">فتح القائمة</b></button>
         <nav class="main-nav" aria-label="القائمة الرئيسية">

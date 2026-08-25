@@ -7,5 +7,6 @@
 <?php get_template_part( 'template-parts/projects' ); ?>
 <?php get_template_part( 'template-parts/process' ); ?>
 <?php get_template_part( 'template-parts/faq' ); ?>
+<?php get_template_part( 'template-parts/location' ); ?>
 <?php get_template_part( 'template-parts/cta' ); ?>
 <?php get_footer(); ?>

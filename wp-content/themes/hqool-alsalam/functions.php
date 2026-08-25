@@ -20,6 +20,13 @@ function hqool_assets() {
 }
 add_action( 'wp_enqueue_scripts', 'hqool_assets' );
 
+function hqool_logo_url() {
+    $custom_logo_id = get_theme_mod( 'custom_logo' );
+    $custom_logo    = $custom_logo_id ? wp_get_attachment_image_url( $custom_logo_id, 'full' ) : false;
+
+    return $custom_logo ? $custom_logo : get_template_directory_uri() . '/assets/images/logo.png';
+}
+
 function hqool_register_projects() {
     register_post_type( 'projects', array(
         'labels' => array( 'name' => 'المشاريع', 'singular_name' => 'مشروع', 'add_new_item' => 'إضافة مشروع جديد', 'edit_item' => 'تعديل المشروع' ),
