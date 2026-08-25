@@ -1,0 +1,1 @@
+<?php get_header(); ?><div class="container content-page"><article class="entry reveal"><p class="eyebrow">حقول السلام</p><h1><?php the_title(); ?></h1><?php while ( have_posts() ) : the_post(); the_content(); endwhile; ?></article></div><?php get_footer(); ?>

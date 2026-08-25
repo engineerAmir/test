@@ -1,0 +1,1 @@
+<?php get_header(); ?><div class="container content-page"><article class="entry project-single reveal"><?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'large' ); } ?><p class="eyebrow">مشروع من أعمالنا</p><h1><?php the_title(); ?></h1><?php the_content(); ?></article></div><?php get_footer(); ?>

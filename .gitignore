@@ -1,0 +1,17 @@
+# Local configuration and secrets
+wp-config.php
+local-xdebuginfo.php
+
+# Generated/runtime content
+wp-content/cache/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/ai1wm-backups/
+
+# Logs and local tooling
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
